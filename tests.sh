@@ -39,7 +39,7 @@ if [[ ! -f $DOCTEST_H ]]; then
 fi
 
 # Compilar
-g++ -std=c++17 "$TEST_CPP" "$EJ_CPP" -o "$BIN"
+g++ -std=c++17 -DTESTING "$TEST_CPP" "$EJ_CPP" -o "$BIN"
 if [ $? -ne 0 ]; then
   echo "Error de compilación."
   exit 6
