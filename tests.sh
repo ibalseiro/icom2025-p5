@@ -48,6 +48,11 @@ fi
 # Ejecutar
 echo "---- Ejecutando tests para ejercicio $EJ ----"
 ./"$BIN"
+if [ $? -ne 0 ]; then
+  echo "Los tests fallaron."
+    rm "$BIN"
+  exit 7
+fi
 
 # Limpiar (opcional, descomentá si querés borrar el ejecutable al final)
 rm "$BIN"
