@@ -1,0 +1,84 @@
+{
+    "tests": [
+        {
+            "name": "Ejercicio 1",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 1",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 2",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 2",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 3",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 3",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 4",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 4",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 7",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 7",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 8",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 8",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 9",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 9",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        },
+        {
+            "name": "Ejercicio 10",
+            "setup": "chmod +x tests.sh",
+            "run": "./tests.sh 10",
+            "input": "",
+            "output": "",
+            "comparison": "contains",
+            "timeout": 10,
+            "points": 10
+        }
+    ]
+}
